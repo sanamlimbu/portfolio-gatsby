@@ -8,7 +8,7 @@ const About = () => {
 			</div>
 			<div className="content">
 				<span style={{ fontWeight: "bold" }}>Software Developer</span>
-				<span> from Perth, Australia</span>
+				<span> based in Perth, Australia.</span>
 				<br />
 				<span>I am passionate about solving problems with software technology.</span>
 				<br />

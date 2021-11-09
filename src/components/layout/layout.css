@@ -1,9 +1,11 @@
 body {
 	background-color: #fff;
 	color: #222;
+	width: auto;
 }
 
 body.dark {
 	color: #eee;
 	background-color: #121212;
+	width: auto;
 }

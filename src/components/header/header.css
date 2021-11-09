@@ -1,12 +1,11 @@
 .header {
-	width: 100%;
+	width: auto;
 	height: 50px;
 	background-color: white;
 	position: sticky;
 	top: 0;
 	z-index: 999;
 	line-height: 27px;
-	padding: 8px;
 	text-align: left;
 }
 
