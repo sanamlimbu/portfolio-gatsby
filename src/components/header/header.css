@@ -1,0 +1,45 @@
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	line-height: 27px;
+	padding: 8px;
+	text-align: left;
+}
+
+.headerWrapper {
+	height: 100%;
+	padding: 0% 16%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+}
+
+.headerRight {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menuItemContainer {
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.menuItem {
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: black;
+}
+
+.menuItem:hover {
+	text-decoration: underline;
+}
