@@ -1,8 +1,10 @@
 .title {
 	display: inline-block;
-	background-color: white;
-	border-radius: 10px;
+	border-radius: 3px;
 	padding: 2px;
+	color: black;
+	background-color: white;
+	margin-left: 8px;
 }
 span {
 	font-size: 1.2rem;

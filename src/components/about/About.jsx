@@ -11,10 +11,11 @@ const About = () => {
 				<span> based in Perth, Australia.</span>
 				<br />
 				<span>I am passionate about solving problems with software technology.</span>
-				<br />
-				<span>I have experience in doing multiple projects and using tools ranging from </span>
-				<br />
-				<span style={{ fontWeight: "bold" }}>HTML, JavaScript, React, Typescript, Go, and Node.js.</span>
+				<div style={{ marginTop: "20px" }}>
+					<span>I have experience in doing multiple projects and using tools ranging from </span>
+					<br />
+					<span style={{ fontWeight: "bold" }}>HTML, JavaScript, React, Typescript, Go, and Node.js.</span>
+				</div>
 			</div>
 		</div>
 	)

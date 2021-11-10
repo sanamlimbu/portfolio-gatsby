@@ -8,11 +8,11 @@ const Projects = () => {
 				<Title name="PROJECTS" />
 			</div>
 			<div className="projectsContainer">
-				<div className="project">
+				<div className="project studyNook">
 					<div className="projectTitle">
 						<h3>Study Nook</h3>
 					</div>
-					<div className="projectDescription">
+					<div className="projectDescription ">
 						<p>
 							A productivity app developed as chrome extension based on Pomodoro technique to make its users more productive during study. Covers
 							full stack using React, TypeScript, Golang, Docker, and PostgreSQL. (Still under construction)
@@ -27,7 +27,7 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-				<div className="project">
+				<div className="project adminDashboard">
 					<div className="projectTitle">
 						<h3>Admin Dashboard</h3>
 					</div>
@@ -46,7 +46,7 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-				<div className="project">
+				<div className="project dvdFlix">
 					<div className="projectTitle">
 						<h3>DVD Flix</h3>
 					</div>

@@ -1,31 +1,44 @@
 .header {
-	width: auto;
 	height: 50px;
 	background-color: white;
 	position: sticky;
 	top: 0;
 	z-index: 999;
-	line-height: 27px;
-	text-align: left;
 }
 
 .headerWrapper {
 	height: 100%;
-	padding: 0% 16%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 0% 16%;
+}
+
+@media screen and (max-width: 575px) {
+	.headerWrapper {
+		justify-content: space-evenly;
+	}
+	.projects {
+		margin: 0px;
+		padding: 0px;
+	}
+	.headerRight {
+		justify-content: space-evenly;
+	}
 }
 
 .logo {
 	height: 40px;
 	width: 40px;
 }
-
+.headerLeft {
+	background-color: aqua;
+}
 .headerRight {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-color: blue;
 }
 
 .menuItemContainer {

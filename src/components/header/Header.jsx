@@ -23,13 +23,8 @@ const Header = () => {
 					</div>
 					<div className="headerRight">
 						<div className="menuItemContainer">
-							<AnchorLink to="/#projects" className="menuItem">
-								Projects
-							</AnchorLink>
-						</div>
-						<div className="menuItemContainer">
 							<AnchorLink to="/#contact" className="menuItem">
-								Contact
+								Home
 							</AnchorLink>
 						</div>
 						<div className="menuItemContainer">

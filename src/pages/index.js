@@ -11,9 +11,9 @@ const IndexPage = () => {
 	return (
 		<ThemeContext.Provider value={{ theme, setTheme }}>
 			<Layout>
-				<About></About>
-				<Projects></Projects>
-				<Contact></Contact>
+				<About />
+				<Projects />
+				<Contact />
 			</Layout>
 		</ThemeContext.Provider>
 	)
